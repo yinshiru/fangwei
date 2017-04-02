@@ -1,0 +1,201 @@
+/*侧边栏*/
+.aside{
+    width:60px;
+    height:240px;
+    background:url('../images/right_bg.png') no-repeat;
+    position: fixed;
+    top:25%;
+    right:0;
+}
+.top{
+    display: inline-block;
+    width:60px;
+    height:60px;
+    background:url('../images/right_1.png') no-repeat 0 0;
+}
+.aside_qq,.aside_phone{
+    width: 238px;
+    cursor: pointer;
+    height:60px;
+    position: relative;
+    right: 0;
+}
+.aside_phone{
+    background:url('../images/right_2_h.png') no-repeat 0 0;
+}
+.aside_phone span{
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 60px;
+    line-height: 24px;
+}
+.aside_qq a{
+    display: inline-block;
+    padding-left: 60px;
+    width:90px;
+    height: 20px;
+}
+.aside_phone span:first-child{
+    padding-top: 5px;
+}
+.aside_qq a:first-child{
+    padding-top: 8px;
+}
+.aside_qq{
+    background:url('../images/right_3_h.png') no-repeat 0 0;
+}
+.bottom{
+    cursor:pointer;
+    height:60px;
+    background:url('../images/right_4.png') no-repeat 0 0;
+}
+/*banner*/
+.banner{
+    width:100%;
+    min-width:1200px;
+    margin-top: 5px;
+    height:400px;
+    background-image: url('../images/banner_case.jpg');
+}
+/*主体*/
+.main{
+    overflow:hidden;
+}
+.container{
+    width:90%;
+    margin:0 auto;
+}
+.success_case{
+    margin-top:60px;
+    background:url('../images/case_t_line.jpg') repeat-x 0 75px;
+}
+.success_case_logo{
+    width:156px;
+    height:39px;
+    margin:0 auto;
+}
+.success_case_title_box{
+    width:75px;
+    background-color:#fff;
+    margin:0 auto;
+}
+.success_case_title{
+    width:45px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size:20px;
+    margin:20px auto 0;
+    border-bottom:1px solid #6bc1ca;
+    color:#333;
+}
+.success_case_nav{
+    margin: 60px auto 40px;
+    width:711px;
+    overflow: hidden;
+}
+.success_case_nav li{
+    float: left;
+    width:104px;
+    height:40px;
+    line-height:40px;
+    font-size: 14px;
+    color:#333;
+    text-align: center;
+    border:1px solid transparent;
+    margin-right:15px;
+}
+.success_case_nav li:last-child{
+    margin-right:0;
+}
+
+li.active,.success_case_nav li:hover{
+    width:104px;
+    height:40px;
+    text-align: center;
+    line-height:40px;
+    border:1px solid #2eafbb;
+    color:#2eafbb!important;
+    cursor: pointer;
+}
+.sear_input{
+    float: right;
+    position:relative;
+    width:238px;
+}
+/*成功案例*/
+.case_box{
+    overflow: hidden;
+    width: 100%;
+}
+.case_content{
+    min-width: 1200px;
+    bottom:-950px;
+}
+.case_content li{
+    float:left;
+    width:30%;
+    margin-right:5%;
+    margin-bottom:20px;
+}
+.case_img img {
+    width:100%;
+}
+.case_content li:nth-child(3n){
+    margin-right:0;
+}
+.case_info{
+    width:100%;
+    /*margin-top:1px;*/
+    height:60px;
+}
+.case_info span{
+    font-size:18px;
+    color:#333;
+    float:left;
+    line-height:60px;
+    padding-left:5px;
+}
+.case_phone{
+    float: right;
+    width:20px;
+    height: 16px;
+    display: inline-block;
+    margin: 22px 10px 0;
+    background:url('../images/cases_ico_pc_b.png') no-repeat 0 0;
+}
+.case_pc{
+    float: right;
+    width:20px;
+    height: 16px;
+    display: inline-block;
+    margin: 22px 10px 0;
+    background:url('../images/cases_ico_phone_b.png') no-repeat 0 0;
+}
+.case_img{
+    display:inline-block;
+    position: relative;
+    transition: all 0.3s;
+    background-color: #000;
+    overflow: hidden;
+    height:235px;
+}
+.case_img:hover img{
+    opacity: 0.6;
+}
+.case_info:hover{
+    background-color: rgb(46,175,187);
+}
+.case_info:hover span{
+    color:#fff;
+}
+.case_info:hover .case_pc{
+    background:url('../images/cases_ico_phone_w.png') no-repeat 0 0;
+}
+.case_info:hover .case_phone{
+    background:url('../images/cases_ico_pc_w.png') no-repeat 0 0;
+}
+
+.more_content{
+    margin-top: 50px;
+}
